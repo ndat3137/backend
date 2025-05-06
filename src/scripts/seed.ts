@@ -1114,10 +1114,8 @@ export default async function seedDemoData({ container }: ExecArgs) {
               title: "1 TB / Silver",
               sku: "GAMING-LAPTOP-1TB-SILVER",
               options: {
-                Storage}
-```typescript
-: "1 TB",
-                Color: "Silver",
+                Storage: "1 TB",
+                Color: "Silver"
               },
               manage_inventory: false,
               prices: [
